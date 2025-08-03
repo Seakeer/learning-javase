@@ -1,0 +1,4 @@
+grant {
+	permission java.io.FilePermission "JavaSec.txt", "write";
+	permission java.net.SocketPermission "localhost:8080", "connect,resolve";
+};
